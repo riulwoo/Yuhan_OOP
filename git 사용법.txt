@@ -1,4 +1,26 @@
 조장
-조원들이 만들어놓은 브랜치를 가져올때
+조원들이 만들어놓은 브렌치를 가져올때
 git remote update
-// 조원들이 만든 브랜치가 뜸
+// 조원들이 만든 브렌치가 뜸
+
+
+
+조원
+브렌치 만들고 (git checkout -b 브렌치명)
+git add . //으로 파일 추가시킨걸 올리고
+git commit -m "수정본등등.. 그냥 쓰고싶은 말"
+git push --set-upstream origin 브렌치명
+git checkout 메인브렌치명 // 을 치고 나옴
+
+
+조장이 합쳐준 뒤
+
+git pull로 당겨옴
+
+
+브렌치 병합 이후에
+다른 파일을 업로드 하고 싶을때
+git checkout 내브렌치명// 내 브렌치로 들어와서
+git add . //으로 파일 추가시킨걸 올리고
+git commit -m "수정본등등.. 그냥 쓰고싶은 말"
+git push --set-upstream origin 브렌치명을 다시 친다!
