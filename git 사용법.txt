@@ -24,3 +24,8 @@ git checkout 내브렌치명// 내 브렌치로 들어와서
 git add . //으로 파일 추가시킨걸 올리고
 git commit -m "수정본등등.. 그냥 쓰고싶은 말"
 git push --set-upstream origin 브렌치명을 다시 친다!
+
+master에서 파일을 수정하고 업로드 할 경우
+git add . //으로 파일 추가시킨걸 올리고
+git commit -m "수정본등등.. 그냥 쓰고싶은 말"
+git push 만 입력하면 된다!
