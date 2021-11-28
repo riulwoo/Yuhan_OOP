@@ -22,12 +22,25 @@ git add . //으로 파일 추가시킨걸 올리고
 git commit -m "수정본등등.. 그냥 쓰고싶은 말"
 git push --set-upstream origin 브렌치명
 git checkout 메인브렌치명 // 을 치고 나옴
-
-
-조장이 합쳐준 뒤
-
 git pull로 당겨옴
 
+깃 커밋 취소, 커밋 되돌리기, 덮어쓰기
+git log --oneline
+git reset --hard 커밋번호
+바로 이전 커밋 상태로 되돌릴 때, 커밋 아이디를 정확히 지정하는 대신
+HEAD^, HEAD@{1}, HEAD~1과 같은 표현을 사용할 수도 있습니다.
+단, 이 경우 반드시 바로 직전에 커밋을 하고 되돌릴 때만 
+의도한대로 동작하기 때문에 사용에 주의가 필요합니다
+$ git reset --hard HEAD^
+
+되돌리기
+git revert 커밋번호
+조장이 합쳐준 뒤
+
+커밋의 내용을 덮어쓸 때는 git commit의 amend 옵션을 사용합니다.
+수정할 내용을 스테이징에 반영하고 다음 명령어를 실행해줍니다.
+
+$ git commit --amend
 
 브렌치 병합 이후에
 다른 파일을 업로드 하고 싶을때
