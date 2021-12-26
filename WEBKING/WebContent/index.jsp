@@ -10,9 +10,20 @@
     <title>WEB KING</title>
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
     </head>
     <body>
-
+	<div class="container">
+		<div>
+			
+		</div>
+		<div>
+			
+		</div>
+		<div>
+			
+		</div>
+	</div>
     </body>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
