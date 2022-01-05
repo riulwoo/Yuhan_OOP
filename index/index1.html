@@ -1,135 +1,157 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--가장 중요한 부분 (head 안에서 가장 먼저 작성해야 함)-->
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.84.0">
-    <title>WEB_KING</title>
- <!--자신이 원하는 제목으로 수정-->
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel-rtl/">
 
-    
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--가장 중요한 부분 (head 안에서 가장 먼저 작성해야 함)-->
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.84.0">
+  <title>WEB_KING</title>
+  <!--자신이 원하는 제목으로 수정-->
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel-rtl/">
 
-    <!-- Bootstrap core CSS -->
-<link href="../main/assets/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
- <!--위치를 수정한다. 자신이 다운 받은 곳으로 지정.-->
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-      h1{
-        color: rgb(48, 98, 117);
-        margin: 50px 100px 10px 10px;
-      }
-      h2{
-        color: rgb(48, 98, 117);
-        margin: 0px 100px 50px 10px;
-      }
-      h3{
-        color: rgb(48, 98, 117);
-        margin: 0px 10px 10px 0px;
-      }
-     
-    </style>
 
-    
-    <!-- Custom styles for this template -->
-    <link href="../carousel.rtl.css" rel="stylesheet">
-  </head>
-  <body>
-    
-<header>
-  <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">메뉴</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="s">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">사이트 개요</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">만든이</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">메롱</a>
-          </li>
-        </ul>
+  <!-- Bootstrap core CSS -->
+  <link href="../index/assets/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+  <!--위치를 수정한다. 자신이 다운 받은 곳으로 지정.-->
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    h1 {
+      color: rgb(48, 98, 117);
+      margin: 50px 100px 10px 10px;
+    }
+
+    h2 {
+      color: rgb(48, 98, 117);
+      margin: 0px 100px 50px 10px;
+    }
+
+    h3 {
+      color: rgb(48, 98, 117);
+      margin: 0px 10px 10px 0px;
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="../carousel.rtl.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">메뉴</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="s">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">사이트 개요</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">만든이</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">메롱</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-</header>
+    </nav>
+  </header>
 
-<main>
+  <main>
 
-  <!-- Marketing messaging and featurettes
+    <!-- Marketing messaging and featurettes
   ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-<div class="text-center">
-  <h1> 어서오세요 </h1>
-  <h2> WEB KING 입니다.</h2>
-</div>
-  <div class="container marketing">
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="text-center">
+      <h1> 어서오세요 </h1>
+      <h2> WEB KING 입니다.</h2>
+    </div>
+    <div class="container marketing">
 
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col">
 
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false"><image x="0" y="0" height="140" weight="140" xlink:href="..\png\quiz.png" /></svg>
-        <h3>QUIZ</h3>
-        <p>퀴즈 사이트</p>
-        <p><a class="btn btn-secondary" href="file:///C:/Users/com/Desktop/WEB_KING/Yuhan_Portfolio_webking/Quiz/Quiz.html" >넘어가기</a></p>
-      </div>
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" focusable="false">
+            <image x="0" y="0" height="140" weight="140" xlink:href="..\png\quiz.png" />
+          </svg>
+          <h3>QUIZ</h3>
+          <p>퀴즈 사이트</p>
+          <p><a class="btn btn-secondary"
+              href="../Quiz/Quiz.html">넘어가기</a></p>
+        </div>
 
-      <div class="col">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false"><image x="0" y="0" height="140" weight="140" xlink:href="..\png\todo.png" /></svg>
-        <h3>TODO</h3>
-        <p>할 일 정리 사이트</p>
-        <p><a class="btn btn-secondary" href="file:///C:/Users/com/Desktop/WEB_KING/Yuhan_Portfolio_webking/TODO/todo.html" >넘어가기</a></p>
-      </div>
+        <div class="col">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" focusable="false">
+            <image x="0" y="0" height="140" weight="140" xlink:href="..\png\todo.png" />
+          </svg>
+          <h3>TODO</h3>
+          <p>할 일 정리 사이트</p>
+          <p><a class="btn btn-secondary"
+              href="../TODO/todo.html">넘어가기</a></p>
+        </div>
 
-      <div class="col">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false"><image x="0" y="0" height="140" weight="140" xlink:href="..\png\git.png" /></svg>
-        <h3>git profile</h3>
-        <p>깃 프로필 </p>
-        <p><a class="btn btn-secondary" href="#">넘어가기</a></p>
-      </div>
-
-
-      <div class="col">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false"><image x="0" y="0" height="140" weight="140" xlink:href="..\png\countdown.png" /></svg>
-        <h3>countdown-timer</h3>
-        <p>졸업까지 남은 시간</p>
-        <p><a class="btn btn-secondary" href="file:///C:/Users/com/Desktop/WEB_KING/Yuhan_Portfolio_webking/countdown-timer/index.html">넘어가기</a></p>
-      </div>
-    </div><!-- /.row -->
-
-
- 
-  <!-- FOOTER -->
-  <footer class="container" style="margin: 200px 100px 10px 1200px" >
-    <p>@WEB_KING making this Web site 2022-01-05</p>
-  </footer>
-</main>
+        <div class="col">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" focusable="false">
+            <image x="0" y="0" height="140" weight="140" xlink:href="..\png\git.png" />
+          </svg>
+          <h3>git profile</h3>
+          <p>깃 프로필 </p>
+          <p><a class="btn btn-secondary" href="../github-profile/index.html">넘어가기</a></p>
+        </div>
 
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+        <div class="col">
+          <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg"
+            role="img" focusable="false">
+            <image x="0" y="0" height="140" weight="140" xlink:href="..\png\countdown.png" />
+          </svg>
+          <h3>countdown-timer</h3>
+          <p>졸업까지 남은 시간</p>
+          <p><a class="btn btn-secondary"
+              href="../countdown-timer/index.html">넘어가기</a>
+          </p>
+        </div>
+      </div><!-- /.row -->
 
-      
-  </body>
+
+
+      <!-- FOOTER -->
+      <footer class="container" style="margin: 200px 100px 10px 1200px">
+        <p>@WEB_KING making this Web site 2022-01-05</p>
+      </footer>
+  </main>
+
+
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
 </html>
