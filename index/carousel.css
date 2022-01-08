@@ -3,10 +3,6 @@
     display: flex;
     width: 700px;
     margin-right: 120px;
-}
-
-.image-container {
-    display: flex;
-    transition: transform 0.3s linear;
+    transition: transform 0.4s linear;
     transform: translate(0);
 }
