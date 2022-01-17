@@ -3,7 +3,7 @@ function createPoop() {
     poop.classList.add('poop');
     poop.style.left = Math.random() * 100 + "vw";
     poop.style.animationDuration = Math.random() * 2 + 3 + "s";
-    poop.innerText = "⚪";
+    poop.innerText = "🤍";
 
     document.body.appendChild(poop);
 
