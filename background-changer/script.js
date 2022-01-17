@@ -1,6 +1,6 @@
-const btn = document.getElementById("btn1");
+const chnbtn = document.getElementById("btn1");
 
-btn.addEventListener("click", () => {
+chnbtn.addEventListener("click", () => {
     document.body.style.background = randomBg()
 });
 
