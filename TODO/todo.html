@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>할 일 </title>
         <link rel="stylesheet" href="style.css" />
+        <link href="..\index\menu.css" rel="stylesheet">
         <script src="script.js" defer></script>
     </head>
     <body>
@@ -19,9 +20,23 @@
             />
             <ul class="todos" id="todos"></ul>
         </form>
-        <small
-            >왼쪽 클릭을 눌러 할일을 끝마치세요! <br />
-            오른쪽 클릭을 눌러 할일을 취소하세요!</small
-        >
+        <small>
+            왼쪽 클릭을 눌러 할일을 끝마치세요! <br />
+            오른쪽 클릭을 눌러 할일을 취소하세요!</small>
+
+            <Button id="btn" class="btn2">☰</Button>
+            <nav id="nav">
+                <ul>
+                <li><a href="..\Quiz\Quiz.html">Quiz</a></li>
+                <li><a href="..\TODO\todo.html">TODO</a></li>
+                <li><a href="..\carousel\index.html">carousel</a></li>
+                <li><a href="..\drawing-app\index.html">drawing-app</a></li>
+                <li><a href="..\zoom-effect\index.html">zoom-effect</a></li>
+                <li><a href="..\countdown-timer\index.html">Countdown-timer</a></li>
+                <li><a href="..\index\index.html">home</a></li>
+                </ul>
+            </nav>
+
     </body>
+    <script src="..\index\menu.js"></script>
 </html>

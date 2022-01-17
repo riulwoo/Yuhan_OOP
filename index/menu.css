@@ -1,4 +1,4 @@
-button {
+.btn2 {
     background-color: #141817;
     border: none;
     color: white;
@@ -10,7 +10,7 @@ button {
 
 }
 
-button.active{
+.btn2.active{
     transform: translateX(-100px);
 }
 
