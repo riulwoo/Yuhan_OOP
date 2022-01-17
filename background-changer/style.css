@@ -13,8 +13,8 @@ body {
     min-height: 100vh;
 }
 
-button {
-    background-color: rebeccapurple;
+.btn1 {
+    background-color: #304230;
     color: white;
     border: none;
     font-family: inherit;
@@ -25,11 +25,11 @@ button {
     transition: transform 0.1s linear;
 }
 
-button:focus{
+.btn1:focus{
     outline: none;
 }
 
-button:active{
+.btn1:active{
     box-shadow: 0;
     transform: translate(2px, 2px);
 }

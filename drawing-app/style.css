@@ -17,12 +17,12 @@ body {
 
 canvas 
 {
-    border: 2px solid rebeccapurple;
+    border: 2px solid #303942;
 }
 
 .toolbox{
-    background-color: rebeccapurple;
-    border: 1px solid rebeccapurple;
+    background-color: #303942;
+    border: 1px solid #303942;
     display: flex;
     padding: 1rem;
     width: 804px;
