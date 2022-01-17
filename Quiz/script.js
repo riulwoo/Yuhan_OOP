@@ -105,7 +105,7 @@ submitBtn.addEventListener("click", () => {
             quiz.innerHTML = `
                 <h2>당신은 ${score}/${quizData.length} 개를 맞췄습니다!</h2>
                 
-                <button onclick="location.reload()">Reload</button>
+                <button onclick="location.reload()" class = "enter">Reload</button>
             `;
         }
     }

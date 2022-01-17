@@ -51,7 +51,7 @@ ul li label {
   cursor: pointer;
 }
 
-button {
+.btn1 {
   /*다음으로 넘어가는 결정 버튼*/
   background-color: rgb(112, 121, 253);
   border: none;
@@ -64,12 +64,11 @@ button {
   padding: 1.3rem;
 }
 
-button:hover {
+.btn1:hover {
   /*버튼 위에 마우스를 올렸을때의 색상*/
   background-color: #1c1d50;
 }
-
-button:focus {
+.btn1:focus {
   /*정답을 고르기전 결정칸의 색*/
   background-color: #464eb6;
   outline: none;

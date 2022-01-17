@@ -5,10 +5,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Quiz App</title>
         <link rel="stylesheet" href="style.css" />
+        <link href="..\index\menu.css" rel="stylesheet">
         <script text="text/javascript" src="script.js" defer></script>
     </head>
-    
     <body>
+        <Button id="btn" class = "btn2">☰</Button>
+          <nav id="nav">
+              <ul>
+              <li><a href="..\Quiz\Quiz.html">Quiz</a></li>
+              <li><a href="..\TODO\todo.html">TODO</a></li>
+              <li><a href="..\carousel\index.html">carousel</a></li>
+              <li><a href="..\drawing-app\index.html">drawing-app</a></li>
+              <li><a href="..\zoom-effect\index.html">zoom-effect</a></li>
+              <li><a href="..\countdown-timer\index.html">Countdown-timer</a></li>
+              <li><a href="..\index\index.html">home</a></li>
+              </ul>
+          </nav>
+
         <div class="quiz-container" id="quiz">
             <div class="quiz-header">
                 <h2 id="question">Question text</h2>
@@ -51,8 +64,10 @@
                     </li>
                 </ul>
             </div>
-            <button id="submit">결정</button>
-        </div>
+            <button id="submit" class = "btn1">결정</button>
+            
     </body>
 
+
+    <script src="..\index\menu.js"></script>
 </html>
