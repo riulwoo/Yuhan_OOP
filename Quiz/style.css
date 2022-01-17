@@ -42,17 +42,12 @@ ul {
   padding: 0;
 }
 
-ul li .asd {
+ul .ij {
   font-size: 1.2rem;
   margin: 1rem 0;
 }
 
-ul li{
-  margin : 0;
-}
-
-
-ul li label {
+ul .ij label {
   cursor: pointer;
 }
 
