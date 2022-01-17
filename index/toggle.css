@@ -9,6 +9,8 @@ body.dark label {
     background-position: center center;
     background-size: 40px 40px;
 }
+
+
 .toggle-container {
     position: fixed;
     padding: 1rem;
